@@ -1,0 +1,4 @@
+from scr.operaciones import area_cuadrado, area_circulo, area_triangulo, area_rectangulo
+
+def test_area_cuadrado():
+    assert area_cuadrado(2,2)=4
